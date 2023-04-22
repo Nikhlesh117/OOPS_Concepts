@@ -4,11 +4,13 @@
     {
         public static void Main(string[] args)
         {
-            ClassName name = new ClassName();
-            name.PrintName();
-            name.GetName("Nk");
+            //ClassName name = new ClassName();
+            //name.PrintName();
+            //name.GetName("Nk");
+            //Console.ReadKey();
             Constrctor h = new Constrctor();
-            Console.ReadKey();
+
+            Constrctor construct = new Constrctor("NK");
 
         }
     }
