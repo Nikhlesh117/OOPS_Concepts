@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace OOPS_Concept
 {
-    
     public class Constrctor
     {
        // Constructor dont have any return type
