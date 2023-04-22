@@ -5,7 +5,9 @@
         public static void Main(string[] args)
         {
             ClassName name = new ClassName();
-            name.MethodOne();
+            name.PrintName();
+            name.GetName("Nk");
+            Constrctor h = new Constrctor();
             Console.ReadKey();
 
         }

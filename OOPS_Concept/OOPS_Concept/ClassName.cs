@@ -8,10 +8,17 @@ namespace OOPS_Concept
 {
     public class ClassName
     {
-        public void MethodOne()
+        // Non-parametised method
+        public void PrintName()
         {
-            Console.WriteLine("Heello");
+            Console.WriteLine("Nikhlesh");
         }
+        //parameterised method
+        public void GetName(string name)
+        {
+            Console.WriteLine(name);
+        }
+
     }
 }
 
