@@ -19,8 +19,6 @@ namespace OOPS_Concept
         {
             Console.WriteLine("this is method in parent class");
         }
-
-
     }
     public class Baseclass
     {
