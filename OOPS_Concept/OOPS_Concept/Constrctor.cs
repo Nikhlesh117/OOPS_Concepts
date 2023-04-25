@@ -9,11 +9,26 @@ namespace OOPS_Concept
     
     public class Constrctor
     {
-       // Constructor dont have any return type
-       // Name should be same as the class name
+        public string name;
+        // Constructor dont have any return type
+        // Name should be same as the class name
+
+        //Non-Paramter
         public Constrctor() 
         {
             Console.WriteLine("Helloworld");
+        }
+
+        //Parameter
+        public Constrctor(string name)
+        {
+            this.name = name;
+            Console.WriteLine(name);
+        }
+
+        public void withoutImplementionMethod()
+        {
+            Console.WriteLine("Hi There");
         }
     }    
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOPS_Concept
 {
-    public class ClassName
+    public class ClassName: InterfaceType
     {
         // Non-parametised method
         public void PrintName()
@@ -19,6 +19,11 @@ namespace OOPS_Concept
             Console.WriteLine(name);
         }
 
+        public void withoutImplementionMethod()
+        {
+            Console.WriteLine("This is classname");
+            //throw new NotImplementedException();
+        }
     }
 }
 
