@@ -5,20 +5,20 @@
         public static void Main(string[] args)
         {
             //This is Interface
-        //    ClassName name = new ClassName();
-        //    name.withoutImplementionMethod();
-        //    Constrctor par= new Constrctor();
-        //    par.withoutImplementionMethod();
+            ClassName name = new ClassName();
+            name.withoutImplementionMethod();
+            Constrctor par= new Constrctor();
+            par.withoutImplementionMethod();
             //This is Enum
-            Console.WriteLine(Project.Nikhlesh);
+            //Console.WriteLine(Project.Nikhlesh);
 
-            int count = (int) Project.Nikhlesh;
-            Console.WriteLine(count);
+            //int count = (int) Project.Nikhlesh;
+            //Console.WriteLine(count);
             // This is Inheritance
-            Parentclass parent= new Parentclass();
-            Console.WriteLine(parent.name = "Nikh");
-            parent.TestName();
-            parent.Class();
+            //Parentclass parent= new Parentclass();
+            //Console.WriteLine(parent.name = "Nikh");
+            //parent.TestName();
+            //parent.Class();
 
 
 
