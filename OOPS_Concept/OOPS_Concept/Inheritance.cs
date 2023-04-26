@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace OOPS_Concept
 {
-    // Inheritance is totally depent on deriverd class and bse class / child  or parent class
+    // Inheritance is totally depent on deriverd class and base class / child  or parent class
     // we are using colon :
     public class Parentclass : Baseclass
     {

@@ -1,6 +1,8 @@
-﻿namespace OOPS_Concept
+﻿using System.Security.Cryptography.X509Certificates;
+
+namespace OOPS_Concept
 {
-    class Program
+    class Program: Abstraction
     {
         public static void Main(string[] args)
         {
@@ -16,10 +18,17 @@
             //Console.WriteLine(count);
 
             // This is Inheritance
-            Parentclass parent = new Parentclass();
-            Console.WriteLine(parent.name = "Nikh");
-            parent.TestName();
-            parent.Class();
+            //Parentclass parent = new Parentclass();
+            //Console.WriteLine(parent.name = "Nikh");
+            //parent.TestName();
+            //parent.Class();
+
+            //This is abstract method
+            Program program = new Program();
+            program.NonAbstractMethod();
+            program.AbstractMethod();
+             
+
 
 
 
@@ -60,9 +69,15 @@
             //Console.WriteLine("Substraction of obj2: " + obj2.Sub(4,2));
 
 
-
+            //It will Override keyword the base class method in the derived class.
             Console.ReadLine();
 
+        }
+        //This is abstract method
+        //It will override keyword the base class method in derived class.
+        public override void AbstractMethod()
+        {
+            Console.WriteLine("This is override/implemented abstract method");
         }
     }
 }
