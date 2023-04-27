@@ -24,10 +24,37 @@ namespace OOPS_Concept
             //parent.Class();
 
             //This is abstract method
-            Program program = new Program();
-            program.NonAbstractMethod();
-            program.AbstractMethod();
-             
+            //Program program = new Program();
+            //program.NonAbstractMethod();
+            //program.AbstractMethod();
+
+            //Typecasting
+            Typecasting obj = new Typecasting();
+            obj.Typecast();
+
+            //ValueType
+            //ValueType obj = new ValueType();
+            //obj.MethodValueType();
+
+            //ReferenceType
+            //reference obj = new reference();
+            //int value = 5;
+            //Console.WriteLine(value);
+            //obj.MethodreferenceType(ref value);
+            //Console.WriteLine(value);
+
+            //Encapsulation
+            //Encapsulation encapsulation = new Encapsulation();
+            //Console.WriteLine(encapsulation.Name);
+            //encapsulation.Name = "Shiva";
+            //Console.WriteLine(encapsulation.Name);
+            //Console.WriteLine(encapsulation.RollNo=8);
+
+            //Polymorphism
+            //OverLoading obj = new OverLoading();
+            //obj.MethodOne();
+            //obj.MethodOne(5);
+            //obj.MethodOne(6,"hello");
 
 
 
