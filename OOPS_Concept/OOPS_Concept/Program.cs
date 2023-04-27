@@ -33,22 +33,22 @@ namespace OOPS_Concept
             //obj.Typecast();
 
             //ValueType
-            ValueType obj = new ValueType();
-            obj.MethodValueType();
+            //ValueType obj = new ValueType();
+            //obj.MethodValueType();
 
             //ReferenceType
-            ReferenceType ob = new ReferenceType();
-            int value = 5;
-            Console.WriteLine(value);
-            ob.MethodreferenceType(ref value);
-            Console.WriteLine(value);
+            //ReferenceType ob = new ReferenceType();
+            //int value = 5;
+            //Console.WriteLine(value);
+            //ob.MethodreferenceType(ref value);
+            //Console.WriteLine(value);
 
             //Encapsulation
-            //Encapsulation encapsulation = new Encapsulation();
-            //Console.WriteLine(encapsulation.Name);
-            //encapsulation.Name = "Shiva";
-            //Console.WriteLine(encapsulation.Name);
-            //Console.WriteLine(encapsulation.RollNo=8);
+            Encapsulation encapsulation = new Encapsulation();
+            Console.WriteLine(encapsulation.Name);
+            encapsulation.Name = "Shiva";
+            Console.WriteLine(encapsulation.Name);
+            Console.WriteLine(encapsulation.RollNo = 8);
 
             //Polymorphism
             //OverLoading obj = new OverLoading();
