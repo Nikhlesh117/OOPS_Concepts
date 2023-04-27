@@ -29,19 +29,19 @@ namespace OOPS_Concept
             //program.AbstractMethod();
 
             //Typecasting
-            Typecasting obj = new Typecasting();
-            obj.Typecast();
+            //Typecasting obj = new Typecasting();
+            //obj.Typecast();
 
             //ValueType
-            //ValueType obj = new ValueType();
-            //obj.MethodValueType();
+            ValueType obj = new ValueType();
+            obj.MethodValueType();
 
             //ReferenceType
-            //reference obj = new reference();
-            //int value = 5;
-            //Console.WriteLine(value);
-            //obj.MethodreferenceType(ref value);
-            //Console.WriteLine(value);
+            ReferenceType ob = new ReferenceType();
+            int value = 5;
+            Console.WriteLine(value);
+            ob.MethodreferenceType(ref value);
+            Console.WriteLine(value);
 
             //Encapsulation
             //Encapsulation encapsulation = new Encapsulation();
