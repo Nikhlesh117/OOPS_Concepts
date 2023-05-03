@@ -2,7 +2,7 @@
 
 namespace OOPS_Concept
 {
-    class Program: Abstraction
+    class Program//: Abstraction
     {
         public static void Main(string[] args)
         {
@@ -44,19 +44,27 @@ namespace OOPS_Concept
             //Console.WriteLine(value);
 
             //Encapsulation
-            Encapsulation encapsulation = new Encapsulation();
-            Console.WriteLine(encapsulation.Name);
-            encapsulation.Name = "Shiva";
-            Console.WriteLine(encapsulation.Name);
-            Console.WriteLine(encapsulation.RollNo = 8);
+            //Encapsulation encapsulation = new Encapsulation();
+            //Console.WriteLine(encapsulation.Name);
+            //encapsulation.Name = "Shiva";
+            //Console.WriteLine(encapsulation.Name);
+            //Console.WriteLine(encapsulation.RollNo = 8);
+
 
             //Polymorphism
-            //OverLoading obj = new OverLoading();
-            //obj.MethodOne();
+            OverLoading obj = new OverLoading();
+            obj.MethodOne();
             //obj.MethodOne(5);
             //obj.MethodOne(6,"hello");
-
-
+            Overriding obj_one= new Overriding();
+            obj_one.MethodOne();
+            //Assigning a derived class object to a base class reference is class upcasting 
+            OverLoading overriding = new Overriding();
+            OverLoading overridingobj = new Encapsulation();
+            overriding.MethodOne();
+            // Assigning a base class object to a derived class is class downcasting
+            OverLoading overLoading = (OverLoading)overriding;
+            overriding.MethodOne();
 
 
             //name.PrintName();
@@ -102,9 +110,9 @@ namespace OOPS_Concept
         }
         //This is abstract method
         //It will override keyword the base class method in derived class.
-        public override void AbstractMethod()
+        /*public override void AbstractMethod()
         {
             Console.WriteLine("This is override/implemented abstract method");
-        }
+        }*/
     }
 }

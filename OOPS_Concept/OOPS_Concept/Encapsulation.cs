@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace OOPS_Concept
 {
-    public class Encapsulation
+    public class Encapsulation : OverLoading
     {
         //It will hide sensitive data from the user
         // Declare feild or variable should be private
@@ -21,6 +21,10 @@ namespace OOPS_Concept
         public int RollNo 
         {
             get; set;
+        }
+        public override void MethodOne()
+        {
+            Console.WriteLine("this is child class");
         }
     }
 }
